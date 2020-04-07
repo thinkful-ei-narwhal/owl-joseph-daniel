@@ -1,5 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import ParticipantList from './participant-list.js';
+import Stage from './stage';
+import ChatLog from './chat-log';
+import {participants, chatEvents} from './store';
 import './App.css';
 
 function App() {
