@@ -3,8 +3,6 @@ import StagePart from './stage-part';
 
 export default function Stage(props) {
 
-  console.log(props.participants);
-
   const newList= props.participants.map(part => <StagePart key={part.id} name={part.name} avatar={part.avatar} inSession={part.inSession} onStage={part.onStage}/>);
 
   return (
