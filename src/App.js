@@ -2,11 +2,23 @@ import React from 'react';
 import ParticipantList from './participant-list.js';
 import Stage from './stage';
 import ChatLog from './chat-log';
-import {participants, chatEvents} from './store';
+import STORE from './store';
 import './App.css';
 
-function App() {
-  return;
-}
+export default function App() {
 
-export default App;
+  console.log(STORE.participants);
+  console.log(STORE.chatEvents);
+
+  const p = <ParticipantList participants={STORE.participants}/>;
+  const s = <Stage participants={STORE.participants}/>;
+  const c = <ChatLog chatEvents ={STORE.chatEvents}/>;
+  
+  return (
+    <main className="App">
+      <section>{p}</section>
+      <section>{s}</section>
+      <section>{c}</section>
+  </main>
+  );
+};
