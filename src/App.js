@@ -7,9 +7,6 @@ import './App.css';
 
 export default function App() {
 
-  console.log(STORE.participants);
-  console.log(STORE.chatEvents);
-
   const p = <ParticipantList participants={STORE.participants}/>;
   const s = <Stage participants={STORE.participants}/>;
   const c = <ChatLog chatEvents ={STORE.chatEvents}/>;

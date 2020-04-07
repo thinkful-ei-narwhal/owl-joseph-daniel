@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StagePart /> renders this UI as expected 1`] = `
+<div
+  className="StagePart"
+>
+  <h3>
+    Mike
+  </h3>
+  <img
+    alt="Mike"
+    src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+  />
+</div>
+`;

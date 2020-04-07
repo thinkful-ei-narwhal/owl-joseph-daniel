@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatLog /> renders this UI as expected 1`] = `
+<div
+  className="chat-list"
+>
+  <hr />
+  <div
+    className="Chat-event"
+  >
+    <img
+      alt="Caty Flucker"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <h3>
+      Caty Flucker
+    </h3>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      gave a thumbs up
+    </p>
+  </div>
+  <div
+    className="Chat-event"
+  >
+    <img
+      alt="Frank Runciman"
+      src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+    />
+    <h3>
+      Frank Runciman
+    </h3>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      gave a thumbs down
+    </p>
+  </div>
+</div>
+`;

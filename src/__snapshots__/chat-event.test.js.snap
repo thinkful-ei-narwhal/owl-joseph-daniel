@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatEvent /> renders this UI as expected 1`] = `
+<div
+  className="Chat-event"
+>
+  <img
+    alt="Koren Templeton"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <h3>
+    Koren Templeton
+  </h3>
+  <p>
+    7:50
+  </p>
+  <p>
+    Hello world
+  </p>
+  <p>
+    
+  </p>
+</div>
+`;

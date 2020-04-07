@@ -3,9 +3,13 @@ import ChatEvent from './chat-event';
 
 export default function ChatLog(props) {
 
-  const chatList= props.chatEvents.map(event => <ChatEvent key={event.participantId} type={event.type} message={event.message} time={event.time} timestamp={event.timestamp}/>);
+  // console.log(props.chatEvents)
+
+  const chatList= props.chatEvents.map(event => <ChatEvent id={event.participantId} type={event.type} message={event.message} time={event.time} timestamp={event.timestamp} name={event.name}/>);
+  console.log(chatList);
   return (
-  <div className="participant-list">
+  <div className="chat-list">
+    <hr></hr>
       {chatList}
   </div>);
 }; 
